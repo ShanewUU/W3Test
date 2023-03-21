@@ -46,7 +46,7 @@ jobs:
           run: echo Your code is being deployed to http//dev/myapp.com
     
     # Our deployment to staging environment
-    DeployStaging
+    DeployStaging:
       name: Deploy to Staging
       # deploy to staging only if we are committing to main
       if: github.event.ref == 'refs/heads/main'
