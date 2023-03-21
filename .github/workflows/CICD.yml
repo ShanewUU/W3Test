@@ -24,6 +24,7 @@ jobs:
         run: echo Imagine we are compiling our code here
       - name: Test
         run: echo Imagine we are testing our code here 
+      - name: ChecksComplete
         run: echo Checks complete code built sucessfully
     
     # Build and test have completed successfully
